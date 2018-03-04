@@ -10,6 +10,10 @@
 
   /** @ngInject */
   function BarChartCtrl($scope, baConfig, $element, layoutPaths) {
+    console.log("calling auth info from here");
+    console.log(auth_info);
+
+    return "currently disabled";
     var layoutColors = baConfig.colors;
     var id = $element[0].getAttribute('id');
     var barChart = AmCharts.makeChart(id, {

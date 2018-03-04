@@ -2,6 +2,14 @@
  * @author v.lugovsky
  * created on 16.12.2015
  */
+ var auth_info = {
+   bar: 5,
+   area: 4,
+   combined: 4,
+   gantt: 4
+ };
+
+console.log(auth_info);
 (function () {
   'use strict';
 
@@ -18,6 +26,7 @@
           sidebarMeta: {
             order: 0,
           },
+          auth_level: 5,
         });
   }
 

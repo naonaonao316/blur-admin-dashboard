@@ -8,6 +8,7 @@
   angular.module('BlurAdmin.pages.dashboard')
       .controller('DashboardCalendarCtrl', DashboardCalendarCtrl);
 
+  console.log("hello from calendar controller");
   /** @ngInject */
   function DashboardCalendarCtrl(baConfig) {
     var dashboardColors = baConfig.colors.dashboard;
