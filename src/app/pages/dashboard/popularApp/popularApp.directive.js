@@ -10,9 +10,11 @@
 
   /** @ngInject */
   function popularApp() {
+    return;
+/*
     return {
       restrict: 'E',
       templateUrl: 'app/pages/dashboard/popularApp/popularApp.html'
     };
-  }
+  } */
 })();

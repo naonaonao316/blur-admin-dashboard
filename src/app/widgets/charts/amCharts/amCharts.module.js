@@ -21,7 +21,7 @@ console.log(auth_info);
     $stateProvider
         .state('charts.amCharts', {
           url: '/amCharts',
-          templateUrl: 'app/widgets/charts/amCharts/charts.html',
+          templateUrl: 'app/pages/charts/amCharts/charts.html',
           title: 'amCharts',
           sidebarMeta: {
             order: 0,
